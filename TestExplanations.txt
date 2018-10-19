@@ -1,0 +1,57 @@
+Partition Output Notes|
+=======================
+
+For the median method we used two test cases:
+    1. On an even sized array of size 8, the median returned is that in index 4 which is expected
+
+    2. On an odd sized array of size 9, the median returned is that in index 4 which is expected
+
+For the select method we used three test cases:
+    1. We find the largest element in an already ordered array so we may easily check our answer. The answer, 8, is as expected.
+
+    2. Similarly, we find the 8th largest element (the smallest element) in an already ordered array to easily check out answer. The answer, 1, is expected.
+
+    3. Finally the test select on a non-ordered array to find the third largest element. The answer, 5, is as expected.
+
+For the partition method we used six test cases:
+    1. First we tested partition on an already ordered array. It randomly selected the fourth smallest element as its pivot and gave an expected output (note the array stayed ordered).
+
+    2. We used an array in reverse order. The method randomly selected the fourth largest element as its pivot. The array was affected as expected (note the array was no longer in order.
+
+    3. Tested partition on an unordered array between its 4th and 6th elements inclusive. The smallest element in this section was randomly chosen as the pivot and notice the 4th through 6th elements ended as -9, 100, 22 (where -9 was the pivot). The ordering prior to method usage was 22, 100, -9. As no other part of the array was affected, the outcome is as expected.
+
+    4. We test partition on an array of size two with the larger element first (so no matter the pivot chosen, the array should be ordered afterwards). The outcome was as expected.
+
+    5. We test partition on a portion of size one within an array. The array was not affected which is expected.
+
+    6. "IndexOutOfBoundsException passed" was printed meaning an exception was passed as expected.
+
+For quickSort we used seven test cases:
+    1. For an already in order array, the outcome was as expected.
+
+    2. For an array in reverse order, the outcome was as expected.
+
+    3. Sorted the array as expected.
+
+    4. Sorted an array of size 2 with the smaller element first as expected.
+
+    5. Sorted an array of size 2 with the larger element first as expected.
+
+    6. Didn't affect an array of size 1 as expected.
+
+    7. No print for IndexOutOfBoundException so no exception was passed so method did nothing as expected.
+
+==========================
+RedWhiteBlue Output Notes|
+==========================
+
+We used six test cases for each of our two versions of our Dutch Flag algorithms:
+    1-2. On two arrays of randomly generated "colours" the "colours" were sorted as expected.
+
+    3. On an array of only blues, the output was as expected.
+
+    4. On an array of only red and whites, the two "colours" were ordered as expected.
+
+    5. On an array of size one, nothing happens as expected.
+
+    6. On an empty array, nothing happens as expected.

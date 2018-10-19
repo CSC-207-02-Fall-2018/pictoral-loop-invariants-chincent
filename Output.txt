@@ -1,0 +1,103 @@
+Partition Output|
+=================
+
+Testing median on even and odd sized arrays
+5
+5
+
+Testing select
+8
+1
+5
+
+Testing partition
+4
+{ 1 2 3 4 5 6 7 8 9}
+
+4
+{ 4 1 2 3 5 8 6 7}
+
+3
+{ 2 -21 0 -9 100 22 -1 3 5 4 -1000}
+
+0
+{ 1 2}
+
+0
+{ 2 1}
+
+IndexOutOfBoundsException passed
+
+Testing quickSort
+{ 1 2 3 4 5 6 7 8 9}
+{ 1 2 3 4 5 6 7 8}
+{ -1000 -21 -9 -1 0 2 3 4 5 22 100}
+{ 1 2}
+{ 1 2}
+{ 1}
+
+====================
+RedWhiteBlue Output|
+====================
+
+Testing dutchFlagA
+This array started as
+{ 2 0 2 1 0 2 0 2 2 0 0 1 2 2 0 0 0 0 1 1 0 1 1 0 2 0 2 0 1 1 1 1 0 1 0 1 1 0 2 1 2 2 1 0 0 2 1 2 2 0}
+It is sorted into:
+{ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2}
+
+This array started as
+{ 0 1 2 1 2 1 2 1 1 2 0 1 2 1 1 2 1 2 0 0 0 2 2 1 1 1 2 2 0 0 0 0 1 2 0 2 2 1 0 0 2 0 0 0 0 1 1 1 0 1}
+It is sorted into:
+{ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2}
+
+This array started as
+{ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2}
+It is sorted into:
+{ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2}
+
+This array started as
+{ 1 0 0 0 1 0 1 0 0 1 1 1 1 0 1 0 1 1 0 0 1 1 0 1 1 0 1 0 0 1 1 1 1 0 0 0 1 1 1 1 1 0 1 0 1 1 1 1 1 0}
+It is sorted into:
+{ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1}
+
+This array started as
+{ 2}
+It is sorted into:
+{ 2}
+
+This array started as
+{}
+It is sorted into:
+{}
+
+Testing dutchFlagC
+This array begin as:
+{ 2 0 0 0 1 0 0 1 1 2 0 1 1 0 0 2 0 0 2 2 0 1 1 1 0 0 2 2 1 0 1 2 2 0 0 2 1 0 0 2 0 2 2 1 0 2 1 0 2 2}
+It is sorted into:
+{ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2}
+
+This array begin as:
+{ 2 1 0 0 2 0 0 1 0 2 2 2 1 1 1 1 1 2 1 0 0 2 1 0 2 1 2 2 1 0 0 2 1 0 0 0 0 0 2 2 1 2 0 2 0 0 0 1 0 0}
+It is sorted into:
+{ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2}
+
+This array begin as:
+{ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2}
+It is sorted into:
+{ 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2}
+
+This array begin as:
+{ 1 0 0 1 1 0 0 0 1 0 1 1 1 1 1 0 1 1 1 1 0 1 1 0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 1}
+It is sorted into:
+{ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1}
+
+This array begin as:
+{ 2}
+It is sorted into:
+{ 2}
+
+This array begin as:
+{}
+It is sorted into:
+{}
